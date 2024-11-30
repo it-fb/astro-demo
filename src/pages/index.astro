@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="首页">
+    <div class="flex flex-col items-center">
+        <h2 class="font-bold text-4xl py-40">
+            Astro Demo
+        </h2>
+        <p class="max-w-[1000px] mt-4 text-center">Astro 是最适合构建像博客、营销网站、电子商务网站这样的以内容驱动的网站的 Web 框架。Astro 以开创了一种新的前端架构而闻名，与其他框架相比它减少了 JavaScript 的开销和复杂性。如果你需要一个加载速度快、具有良好 SEO 的网站，那么 Astro 就是你的选择。</p>
+        <h2 class="py-10 text-2xl font-bold">已引入的依赖</h2>
+        <div class="text-center">
+            <a class="my-2" href="https://tailwindcss.com" target="_blank" >Tailwind CSS</a>
+            <a class="my-2" href="https://unocss.dev/" target="_blank" >UnoCSS</a>
+            <a class="my-2" href="https://sass-lang.com/" target="_blank">Sass</a>
+        </div>
+    </div>		
+</Layout>
+
+<style lang="scss">
+a {
+    display: block;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+</style>
